@@ -1,4 +1,4 @@
 #include <iostream>
-int main () {
-    for (int x = 1; x > 0; ++x)
-    std::cout << x << " ";}
+int x = 0;
+int main() 
+{while (true) {x += 1;std::cout << x << " ";} }
