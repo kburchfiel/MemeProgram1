@@ -1,4 +1,4 @@
-This is a silly C++ program that provides you with a crude "animated desktop background" (really just a command prompt) in front of which you can place other windows on your computer.
+This is a silly C++ program that provides you with a crude "animated desktop background" (really just a command prompt) in front of which you can place other windows on your computer. I do **not** recommend it for anyone who has epilepsy.
  
 The second version of this program corrected a drawback noted by Chris Y on my corresponding Youtube video(https://www.youtube.com/watch?v=4sGGwS4ZI7o). Chris noted that the for loop (x = 1; x > 0; ++x that this program originally used would stop once the value of x overflowed into a negative number. Since I wish for this to be a program that continues indefinitely, I changed it to incorporate a while (true) loop that won't end until the user exits the program. 
 
