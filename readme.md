@@ -4,7 +4,7 @@ The second version of this program corrected a drawback noted by Chris Y on my c
 
 There are lots of ways to change the "animation." For instance, try removing the space that proceeds x in std::cout. Alternatively, you can make x a double with the initial value 1.0001 and then have it multiply itself by 1.0001 within the while loop. 
 
-When this program runs on my computer, it appears to display updated versions of x ( . . . 101, 102, 103 . . . ) nearly 5,000 times per second. If this speed remains constant, it should take a little over 5 days for x to overflow and become negative (e.g. . . . 2,147,483,646, 2,147,483,647, -2,147,483,648, -2,147,483,647 . . . ). I wonder to what extent this timing would vary among different computers. 
+When this program runs on my computer, it appears to display updated versions of x ( . . . 101, 102, 103 . . . ) nearly 5,000 times per second if I keep the command prompt very small. If this speed remains constant, it should take a little over 5 days for x to overflow and become negative (e.g. . . . 2,147,483,646, 2,147,483,647, -2,147,483,648, -2,147,483,647 . . . ). I wonder to what extent this timing would vary among different computers. 
 
 I recognize the indentation of the code is not ideal, but I wanted to say that the program used only 4 lines of code. Using the auto-indentation feature in Visual Studio Code brings the program up to 10 lines of code.
 
